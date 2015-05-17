@@ -1,5 +1,6 @@
 # condense meeting times (combine overlaps)
 # meeting_times is list of tuples
+# runtime: O(nlogn)
 
 def condense_meeting_times(meeting_times) :
 	sortedTimes = sorted(meeting_times)

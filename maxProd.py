@@ -1,4 +1,5 @@
 # highest product of three integers in an array
+# runtime: O(n)
 
 def highest_product(array_of_ints) :
     if len(array_of_ints) < 3 : raise Exception("Less than 3 items!")
